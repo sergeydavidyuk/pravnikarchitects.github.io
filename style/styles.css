@@ -34,7 +34,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	height: 160px;
+	height: 15vh;
 	left: 0px;
 	top: 0px;
 	padding: 0 120px;
@@ -53,7 +53,7 @@ main{
 }
 
 .dropdown {
-  position: relative; /* Добавляем позиционирование для родительского контейнера */
+  position: relative; 
 }
 
 .dropdown-content {
@@ -90,30 +90,24 @@ main{
 }
 
 
-.menu_btn div {
+.menu_btn div 
   width: 60px;
   height: 2px;
   background-color: white;
 }*/
 
 .company_name {
-	display: flex;
-  flex-direction: column;
-  align-items: center;
-	/*background: url("img/big_logo.png") no-repeat;
-	background-position: center;
-  background-size: auto;*/і
-	/*height: 790px;*/
+	display: block;
+  text-align: center;
 	width: 100%;
-  height: 100vh; /* 100% высоты экрана */
+  height: 85vh; /* 100% высоты экрана */
+  margin-top: 25vh;
 }
 
 .PravnikArchitects {
 	font-family: Jost;
 	font-style: ExtraLight;
 	color: white;
-	margin-top: 350px;
-	margin-bottom: 250px;
 	animation: fadeIn 4s ease forwards; /* Запускаем анимацию появления */
 }
 
